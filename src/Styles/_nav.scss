@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Cabin", sans-serif;
+  h2 {
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+  button {
+    border: 2px black solid;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  button:hover {
+    background: rgb(94, 94, 94);
+    color: white;
+  }
+  button:focus {
+    outline: none;
+  }
+}

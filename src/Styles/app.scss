@@ -1,0 +1,28 @@
+// Importing Partial Scss
+@import "_player.scss";
+@import "_song.scss";
+@import "_library.scss";
+@import "_responsiveDesign.scss";
+@import "nav.scss";
+@import "copyright.scss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+//font-family: "Noto Sans TC", sans-serif;
+//font-family: 'Cabin', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: black;
+}
+.App {
+  transition: all 0.3s ease;
+}
+.app-active {
+  margin-left: 20%;
+}

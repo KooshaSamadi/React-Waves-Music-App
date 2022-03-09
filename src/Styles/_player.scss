@@ -1,0 +1,60 @@
+.player {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  input[type="range"] {
+    height: 1rem;
+    overflow: hidden;
+    appearance: none;
+    padding: 0rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    width: 100%;
+    -webkit-appearance: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1rem;
+    width: 0.1px;
+    padding: 0rem;
+    box-shadow: -50rem 0 0 50rem rgb(202, 203, 205);
+  }
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1rem;
+    width: 0.1px;
+    padding: 0rem;
+    box-shadow: -50rem 0 0 50rem rgb(202, 203, 205);
+  }
+}
+.time-control {
+  display: flex;
+  width: 55vw;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  p {
+    width: 11.499999995%;
+    padding: 1rem 0rem;
+    margin: 0 !important;
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+  }
+}
+
+.play-control {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+  svg {
+    cursor: pointer;
+  }
+}

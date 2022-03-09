@@ -1,0 +1,48 @@
+{
+  "name": "WavesMusicApp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "gsap": "^3.6.1",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-gsap": "^3.2.1",
+    "react-scripts": "4.0.3",
+    "uuid": "^8.3.2",
+    "wavesurfer-react": "^2.0.8",
+    "wavesurfer.js": "^5.0.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

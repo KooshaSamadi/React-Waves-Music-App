@@ -1,0 +1,66 @@
+@media screen and (max-width: 2000px) {
+  .library {
+    width: 22rem;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .library {
+    width: 100%;
+  }
+  .library-songs {
+    img {
+      width: 15%;
+    }
+  }
+  .song {
+    img {
+      width: 35%;
+    }
+  }
+  .player {
+    input {
+      width: 100%;
+    }
+    .time-control {
+      width: 90%;
+    }
+  }
+  .play-control {
+    width: 60%;
+  }
+  nav {
+    justify-content: space-between !important;
+    button {
+      z-index: 50;
+      margin-top: 1rem;
+      margin-right: 2rem;
+    }
+    h2 {
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .song {
+    img {
+      width: 45%;
+    }
+  }
+  .player {
+    input {
+      width: 90%;
+    }
+    .time-control {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .play-control {
+    width: 70%;
+  }
+}

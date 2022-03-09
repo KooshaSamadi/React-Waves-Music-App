@@ -1,0 +1,75 @@
+.library {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18rem;
+  height: 100vh;
+  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  overflow-y: scroll;
+  background: white;
+  z-index: 5;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  h2 {
+    padding: 2rem 1rem;
+    font-family: "Noto Sans TC", sans-serif;
+  }
+}
+.library-songs {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  img {
+    width: 30%;
+    border-radius: 0.5rem;
+  }
+}
+.library-songs:hover {
+  background-color: rgb(173, 234, 255);
+}
+.selected {
+  background-color: rgba(219, 178, 206,0.7);
+}
+.song-description {
+  padding-left: 1rem;
+  font-family: "Cabin", sans-serif;
+
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+}
+.library-active {
+  transform: translateX(0%);
+  opacity: 1;
+}
+// scrollbar
+//firefox
+* {
+  scrollbar-width: thin;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(200, 174, 174);
+  border-radius: 0.3rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(165, 136, 136);
+}
